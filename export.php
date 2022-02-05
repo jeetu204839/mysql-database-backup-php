@@ -50,6 +50,5 @@ header("Content-Transfer-Encoding: utf-8");
 header("Content-disposition: attachment; filename=\"" . basename($file_url) . "\"");   
 readfile($file_url);  
 
-echo "jeetu";
 
 ?>
